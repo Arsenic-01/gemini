@@ -1,0 +1,86 @@
+.sidebar {
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f4f9;
+  padding: 25px 15px;
+  transition: all 0.4s ease-in;
+}
+
+.sidebar img {
+  width: 20px;
+}
+
+.sidebar .menu {
+  cursor: pointer;
+  display: block;
+  margin-left: 10px;
+}
+
+.sidebar .new-chat {
+  margin-top: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #e8eef5;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 550;
+  color: #444746;
+  cursor: pointer;
+}
+
+.sidebar .new-chat:hover {
+  background-color: #e2e6eb;
+  transition: all 0s ease;
+}
+
+.sidebar .new-chat p {
+  margin-left: 10px;
+}
+
+.sidebar .recent {
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 1.5s;
+}
+
+.sidebar .recent-title {
+  margin: 30px 0px 5px 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.sidebar .fa-message {
+  transform: translateY(3px);
+}
+
+.sidebar .recent-entry .recent-prompt {
+  font-weight: 300;
+}
+
+.sidebar .recent-entry {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  color: #282828;
+  cursor: pointer;
+}
+.sidebar .recent-entry:hover {
+  background-color: #e2e6eb;
+}
+
+.sidebar .bottom-item {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
