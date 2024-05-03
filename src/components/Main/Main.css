@@ -1,7 +1,7 @@
 .main {
   flex: 1;
   min-height: 100vh;
-  padding-bottom: 15vh;
+  padding-bottom: 14vh;
   position: relative;
 }
 
@@ -115,8 +115,8 @@
 }
 
 .result {
-  padding: 0 5%;
-  max-height: 70vh;
+  padding: 30px 5%;
+  max-height: 75vh;
   overflow-y: scroll;
 }
 
@@ -172,6 +172,7 @@
   font-size: 17px;
   font-weight: 300;
   line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
